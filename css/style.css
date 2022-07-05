@@ -1,0 +1,522 @@
+
+nav li a
+{
+
+    font-weight: 500;
+    font-family: poppins;
+    margin-left: 0.5rem;
+}
+nav li a:not(.active)
+{
+    color: black;
+}
+.active{
+color: #e65f78;
+}
+nav li a:hover{
+color: #e65f78 !important;
+}
+header
+{
+background-image: url(../images/1.jpg);
+height: 100vh;
+background-size: cover;
+background-position: center center;
+}
+.layer
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,.6);
+    z-index: 1;
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+z-index: 3;
+text-align: center;
+} 
+ .content-image
+{
+    width: 170px;
+
+}
+.w-30{
+    width: 30%;
+}
+
+.content img{
+    border: 8px solid  rgba(255,255,255,.08);
+    border-radius:50% ;
+    -webkit-border-radius:50% ;
+    -moz-border-radius:50% ;
+    -ms-border-radius:50% ;
+    -o-border-radius:50% ;
+}
+.content-title h3{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: 800;
+    font-family: montserrat;
+
+ 
+}
+.content-title h3 span{
+    color: #e65f78;
+}
+
+.content-title p
+{
+    color: #fff;
+    font-size: 19px;
+    font-weight: 500;
+    font-family: poppins;
+}
+.content-title p:after{
+    content: "";
+    animation-name:p;
+    animation-duration: 5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes p{
+1%{content:"w";}
+2%{content:"we";}
+3%{content:"web";}
+4%{content:"web d";}
+5%{content:"web de";}
+6%{content:"web dev";}
+7%{content:"web deve";}
+8%{content:"web devel";}
+9%{content: "web develo";}
+10%{content: "web develop";}
+11%{content: "web develope";}
+12%{content: "web developer";}
+13%{content: "web develope";}
+14%{content: "web develop";}
+15%{content: "web develo";}
+16%{content: "web devel";}
+17%{content: "web deve";}
+18%{content: "web dev";}
+19%{content: "web de";}
+20%{content: "web d";}
+21%{content: "web";}
+22%{content: "we";}
+23%{content: "w";}
+24%{content: "P";}
+25%{content: "Ph";}
+26%{content: "Pho";}
+27%{content: "Phot";}
+28%{content: "Photo";}
+29%{content: "Photog";}
+30%{content: "Photogr";}
+34%{content: "Photograp";}
+35%{content: "Photpgraphe";}
+36%{content: "Photographer";}
+46%{content: "P";}
+45%{content: "Ph";}
+44%{content: "Pho";}
+43%{content: "Phot";}
+42%{content: "Photo";}
+41%{content: "Photog";}
+40%{content: "Photogr";}
+39%{content: "Photograp";}
+38%{content: "Photpgraphe";}
+37%{content: "Photographer";}
+47%{content: "F";}
+48%{content: "Fr";}
+49%{content: "Fre";}
+50%{content: "Free";}
+51%{content: "Freel";}
+52%{content: "Freela";}
+53%{content: "Freelan";}
+54%{content: "Freelanc";}
+55%{content: "Freelance";}
+56%{content: "Freelancer";}
+67%{content: "";}
+66%{content: "F";}
+65%{content: "Fr";}
+64%{content: "Fre";}
+63%{content: "Free";}
+62%{content: "Freel";}
+61%{content: "Freela";}
+60%{content: "Freelan";}
+59%{content: "Freelanc";}
+58%{content: "Freelance";}
+57%{content: "Freelancer";}
+
+}
+.arrow{
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+    transform: translateX(-50%);
+    z-index: 6;
+    margin-left: -21px;
+    color: #fff;
+    font-size: 1.5rem;
+
+}
+
+
+.image-border{
+  border: 10px solid #000;
+ position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+}
+.image{
+position: relative;
+right: 20px;
+bottom: 30px;
+}
+
+span.movment::after{
+        content: "";
+        color: #e65f78;
+        animation: move 7s infinite;
+        -webkit-animation: move 7s infinite;
+}
+@keyframes move{
+        1%{content:"w";}
+        2%{content:"we";}
+        3%{content:"web";}
+        4%{content:"web d";}
+        5%{content:"web de";}
+        6%{content:"web dev";}
+        7%{content:"web deve";}
+        8%{content:"web devel";}
+        9%{content: "web develo";}
+        10%{content: "web develop";}
+        11%{content: "web develope";}
+        12%{content: "web developer";}
+        13%{content: "web develope";}
+        14%{content: "web develop";}
+        15%{content: "web develo";}
+        16%{content: "web devel";}
+        17%{content: "web deve";}
+        18%{content: "web dev";}
+        19%{content: "web de";}
+        20%{content: "web d";}
+        21%{content: "web";}
+        22%{content: "we";}
+        23%{content: "w";}
+        24%{content: "P";}
+        25%{content: "Ph";}
+        26%{content: "Pho";}
+        27%{content: "Phot";}
+        28%{content: "Photo";}
+        29%{content: "Photog";}
+        30%{content: "Photogr";}
+        34%{content: "Photograp";}
+        35%{content: "Photpgraphe";}
+        36%{content: "Photographer";}
+        46%{content: "P";}
+        45%{content: "Ph";}
+        44%{content: "Pho";}
+        43%{content: "Phot";}
+        42%{content: "Photo";}
+        41%{content: "Photog";}
+        40%{content: "Photogr";}
+        39%{content: "Photograp";}
+        38%{content: "Photpgraphe";}
+        37%{content: "Photographer";}
+        47%{content: "F";}
+        48%{content: "Fr";}
+        49%{content: "Fre";}
+        50%{content: "Free";}
+        51%{content: "Freel";}
+        52%{content: "Freela";}
+        53%{content: "Freelan";}
+        54%{content: "Freelanc";}
+        55%{content: "Freelance";}
+        56%{content: "Freelancer";}
+        67%{content: "";}
+        66%{content: "F";}
+        65%{content: "Fr";}
+        64%{content: "Fre";}
+        63%{content: "Free";}
+        62%{content: "Freel";}
+        61%{content: "Freela";}
+        60%{content: "Freelan";}
+        59%{content: "Freelanc";}
+        58%{content: "Freelance";}
+        57%{content: "Freelancer";}
+}
+.container-title span{
+    color: #e65f78;
+    font-family: poppins;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+}
+.container-title h3
+{
+    font-size: 2rem;
+    line-height: 1.4;
+    font-family: poppins;
+    color: #000;
+    font-weight: 700;
+}
+.title p{
+    font-family: 'Mulish', sans-serif;
+    font-size: 1rem;
+    line-height: 2;
+    letter-spacing: .5px;
+    font-weight: 400;
+    color: #333;
+    
+}
+.fst-italic{
+    color: #e65f78;
+}
+.list li
+{
+margin-bottom: 1rem;
+
+font-family: 'Mulish', sans-serif;
+}
+.list li i
+{
+    color: #e65f78;
+margin-right: 10px;
+
+}
+.list li label{
+   font-weight: 600;
+   padding-right: 10px;
+ color: #000;
+}
+.list li a
+{
+ text-decoration: none;
+    color: #333;
+}
+.btn{
+    margin-top: 1rem;
+    background-color: #e65f78 !important;
+    border: transparent;
+    font-size: 1rem!important;
+    font-family: poppins !important;
+    border-radius: 0!important;
+    padding: 12px 40px;
+   
+}
+ button{
+     position: relative;
+ }
+ .btn::before{
+    content: "";
+    width: 1%;
+    height: 100%;
+    background-color: rgba(225, 225, 225, 0.1);
+    position: absolute;
+    top: 0;
+    left: -27%;
+    transition: all 0.5s;
+    transform: skew(50deg);
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -webkit-transform: skew(50deg);
+    -moz-transform: skew(50deg);
+    -ms-transform: skew(50deg);
+    -o-transform: skew(50deg);
+}
+.btn:hover::before{
+    width: 150%;
+}
+.background{
+    background-color: #f9f9f9;
+ padding: 2rem;
+    margin-top: 5rem;
+}
+.inner{
+    box-shadow: 0 0 20px rgb(0 0 0 / 20%);
+    background-color: #fff;
+    padding: 3rem;
+}
+.inner p{
+    font-family: mulish;
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: .5px;
+    word-wrap: break-word;
+    font-weight: 400;
+    color: #333;
+}
+.inner i{
+    font-size: 3rem;
+    color: #e65f78;
+}
+.inner h3{ margin-bottom: 1rem;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: poppins;
+    color: #000;
+}
+
+.question {
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 3rem;
+}
+
+.line::after{
+    content: '';
+    width: 0%;
+    height: 1px;
+    position: absolute;
+    left: auto;
+    right: 0;
+    bottom: 0px;
+    background:black;
+    transition: all 0.7s ease-in;
+    -webkit-transition: all 0.7s ease-in;
+    -moz-transition: all 0.7s ease-in;
+    -ms-transition: all 0.7s ease-in;
+    -o-transition: all 0.7s ease-in;
+}
+.line:hover::after{
+width: 100%;
+left: 0;
+right: auto; 
+}
+.portfolio-list a{
+    text-decoration: none;
+    padding-right: 2rem;
+    color: #000;
+    font-weight: 500;
+    font-family: poppins;
+}
+.portfolio-image{
+    overflow: hidden;
+
+}
+.portfolio-image img{
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    cursor: pointer;
+}
+.portfolio-image img:hover{
+     transform:scale(1.2);
+     -webkit-transform:scale(1.2);
+     -moz-transform:scale(1.2);
+     -ms-transform:scale(1.2);
+     -o-transform:scale(1.2);
+}
+.bg-color{
+    background-color: #000;
+    color: #fff;
+    padding: 5rem;
+    background-image: url(../images/ravenna.png);
+}
+.bg-color h3{
+font-size: 40px;
+font-weight: 600;
+margin-bottom: 7px;
+line-height: 1.4;
+
+font-family: poppins;
+}
+.bg-color span
+{
+    font-size: 1rem;
+
+    font-family: poppins;
+    font-weight: 400;
+}
+.news-title h3{
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 1rem;
+    font-family: poppins;
+}
+.news-title p{
+    font-family: poppins;
+    font-size: 12px;
+    color: #767676;
+    font-style: italic;
+}
+.rotate{
+    overflow: hidden;
+    
+}
+.rotate img{
+    transition: all 0.7s;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    -ms-transition: all 0.7s;
+    -o-transition: all 0.7s;
+}
+.rotate:hover img{
+    transform: scale(1.2) rotate(5deg);
+    -webkit-transform: scale(1.2) rotate(5deg);
+    -moz-transform: scale(1.2) rotate(5deg);
+    -ms-transform: scale(1.2) rotate(5deg);
+    -o-transform: scale(1.2) rotate(5deg);
+}
+.contact p{
+
+    font-family: mulish;
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: .5px;
+    word-wrap: break-word;
+    font-weight: 400;
+    background-color: #fff;
+    color: #333;
+}
+.footer
+{
+    background-color: #000;
+    padding: 3rem;
+    color: white;
+padding: 4rem;
+
+}
+.footer-content{
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: .5px;
+    word-wrap: break-word;
+    font-family: poppins;
+    font-weight: 400;
+}
+.gear
+{
+
+  padding: 1rem;
+  cursor: pointer;
+    position: absolute;
+    right: 0px;
+    top: 130px;
+    color: #fff;
+    background-color: #000000;
+    z-index: 1200;
+    position: fixed;
+    font-size: 1.5rem;
+ 
+}
+.portfolio-list .active{
+    color: #e65f78;
+}
+.portfolio-list a:hover{
+color: #e65f78;
+}
